@@ -2,8 +2,27 @@ h1{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
     color: aliceblue;
+    align-self: center;
 }
 
 body{
     background-color: #311936;
+}
+
+.logo_button{
+    height: 50px;
+    width: 50px;
+    fill: #311936;
+}
+
+#profile_picture{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+      color: aliceblue;  
 }
