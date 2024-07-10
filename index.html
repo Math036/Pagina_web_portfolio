@@ -7,15 +7,19 @@
     <link rel="stylesheet" href=".\css\style.css">
 </head>
 <body>
-    <h1>Olá, sou Matheus Mota; <br> Artista Digital e Estudante de Computação.</h1>
+    <div class="menu">
+        <a href=".\galeria.html">Galeria Completa</a>
+        <a href=".\comissions.html">Tabela de Preços</a>
+    </div>
+
     <img id="profile_picture" src=".\img\pfp.png" alt="Foto de Perfil" >
+    <h1>Olá, sou Matheus Mota; <br> Artista Digital e Estudante de Computação.</h1>
+    
+   <div>
+    <p>Plataformas para contato</p>
+   </div>
 
-    <a href=".\galeria.html">Galeria Completa</a>
-    <a href=".\comissions.html">Tabela de Preços</a>
-
-    <p>Plataformas para contato:</p>
-
-    <ul>
+    <ul class="button_grid">
         <li><button >
             <a href="https://www.pixiv.net/en/users/37155680">
                 <img class = "logo_button" src=".\img\pixiv_logo.png"  alt="Pixiv Logo">
@@ -35,12 +39,13 @@
             </button></li>
     </ul>
 
-    <p>Trabalhos Recentes</p>
-    <ul>
-        <li><img src=".\img\119944800_p0_master1200.jpg" alt="Imagem 1"></li>
-        <li><img src=".\img\116739472_p0_master1200.jpg" alt="Imagem 2"></li>
-        <li><img src=".\img\116215052_p0_master1200.jpg" alt="Imagem 3"></li>
-        <li><img src=".\img\116000921_p0_master1200.jpg" alt="Imagem 4"></li>
+    <div><p>Trabalhos Recentes</p></div>
+    
+    <ul class = "recents_grid" >
+        <li><img class = "recents_grid_item" src=".\img\119944800_p0_master1200.jpg" alt="Imagem 1"></li>
+        <li><img class = "recents_grid_item" src=".\img\116739472_p0_master1200.jpg" alt="Imagem 2"></li>
+        <li><img class = "recents_grid_item" src=".\img\116215052_p0_master1200.jpg" alt="Imagem 3"></li>
+        <li><img class = "recents_grid_item" src=".\img\116000921_p0_master1200.jpg" alt="Imagem 4"></li>
      </ul>
 </body>
 </html>
