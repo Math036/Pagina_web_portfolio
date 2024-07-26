@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Comissões</title>
+    <link rel="stylesheet" href=".\css\comissionStyle.css">
+</head>
+<body>
+    <fieldset class="sketchBox">
+        <legend>Tipo de Desenho</legend>
+        <label class="container">Esboço Simples
+            <input type="radio" 
+            name = "sketchType"
+            id = "price"
+            onclick="catchNumber(10)">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container">Lineart Completa
+            <input type="radio" 
+            name = "sketchType"
+            id = "price"
+            onclick="catchNumber(20)">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container">Colorido + Cell Shading
+            <input type="radio" 
+            name = "sketchType"
+            id = "price"
+            onclick="catchNumber(30)">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container">Colorido + Renderização Completa
+            <input type="radio" 
+            name = "sketchType"
+            id = "price"
+            onclick="catchNumber(40)">
+            <span class="checkmark"></span>
+          </label>
+    </fieldset>
+
+    <fieldset class = "bodySizes">
+        <legend>Tipo de Corpo</legend>
+        <label class="container">Rosto e Busto
+            <input type="radio" 
+            name = "bodyType"
+            id = "price"
+            onclick="catchNumber(10)">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container">Cintura para cima
+            <input type="radio" 
+            name = "bodyType"
+            id = "price"
+            onclick="catchNumber(20)">
+            <span class="checkmark"></span>
+          </label>
+          
+          <label class="container">Corpo Inteiro
+            <input type="radio" 
+            name = "bodyType"
+            id = "price"
+            onclick="catchNumber(30)">
+            <span class="checkmark"></span>
+          </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Custos Adicionais</legend>
+
+        <label class="container">Cenário de Fundo
+            <input type="checkbox"
+            id = "price"
+            onclick="catchNumber(15)">
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="container">Personagem Extra
+            <input type="checkbox" id="openCharacters" onclick ="enableDisableTextBox(this)">
+            <span class="checkmark"></span>
+          </label>
+
+            Quantos Personagens?
+          <input type="text" id="characterNumber" disabled = "disabled">
+
+          <label class="container">NSFW
+            <input type="checkbox"
+            id = "price"
+            onclick="catchNumber(40)">
+            <span class="checkmark"></span>
+          </label>
+
+    </fieldset>
+
+    <p>Selecionou o que queria? Agora clique no Botão e faremos uma estimativa para você!</p>
+
+    <button type="button" onclick="showPrice()">Calcular Orçamento</button>
+
+    <p id = "messageText"></p>
+
+    <script src=".\script\comissionScript.js"></script>
+</body>
+</html>
