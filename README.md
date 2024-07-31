@@ -16,3 +16,7 @@ e no caso de personagens extras, digite o número desejado e então clique no bo
 Com suas opções selecionadas, clique no botão de 'Calcular Comissão'. O valor será exibido abaixo.
 
 Caso deseje conferir o preço em outras moedas, clique em um dos butôes na página. O valor será exibido no console da página no momento.
+
+Bugs existentes:
+
+-Clicar mais de uma vez na checkbox adiciona o valor no preço final, gerando preços mais altos que o planejado.
