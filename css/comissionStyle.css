@@ -1,3 +1,35 @@
+body{
+  background-color: #311936;
+}
+
+fieldset{
+  background-color: #8575b8;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10%;
+  font-style: normal;
+  margin-bottom: 15px;
+}
+
+legend{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p{
+    color: #eee;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10%;
+    font-style: normal;
+    margin: 10px;
+  }
+
 /* Customize the label (the container) */
 .container {
     display: block;
@@ -31,6 +63,8 @@
     background-color: #eee;
     border-radius: 50%;
   }
+
+  
   
   /* On mouse-over, add a grey background color */
   .container:hover input ~ .checkmark {
@@ -39,7 +73,7 @@
   
   /* When the radio button is checked, add a blue background */
   .container input:checked ~ .checkmark {
-    background-color: #2196F3;
+    background-color: #311936;
   }
   
   /* Create the indicator (the dot/circle - hidden when not checked) */
