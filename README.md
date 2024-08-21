@@ -19,4 +19,4 @@ Caso deseje conferir o preço em outras moedas, clique em um dos butôes na pág
 
 Bugs existentes:
 
--Clicar mais de uma vez na checkbox adiciona o valor no preço final, gerando preços mais altos que o planejado.
+-Mudar de opção nas checkboxes incrementa o valor da comissão total.
