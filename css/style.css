@@ -25,6 +25,7 @@ div{
     border-radius: 10px;
     background-color: indigo;
     height: 40px;
+    padding: 10px;
 }
 
 .menu a{
