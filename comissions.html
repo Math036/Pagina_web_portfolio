@@ -97,19 +97,28 @@
 
     </fieldset>
 
-    <p>Selecionou o que queria? Agora clique no Botão e faremos uma estimativa para você!</p>
+    <div class = "notify">
+      <p>Selecionou o que queria? Agora clique no Botão e faremos uma estimativa para você!</p>
+    </div>
 
-    <button type="button" onclick="showPrice()">Calcular Orçamento</button>
+
+    <button type="button" 
+    id= "comission_btn" 
+    onclick="showPrice()">Calcular Orçamento</button>
 
     <p id = "messageText"></p>
 
-    <p>Não é do Brasil? Então converta o preço para as moedas abaixo:</p>
+   <div class= "notify">
+     <p>Não é do Brasil? Então converta o preço para as moedas abaixo:</p>
+   </div>
 
-    <button onclick="convert('BRL','USD')">USD</button>
-
-    <button onclick="convert('BRL','EUR')">EUR</button>
-
-    <button onclick="convert('BRL','JPY')">JPY</button>
+   <div class="conversion">
+     <button onclick="convert('BRL','USD')">USD</button>
+ 
+     <button onclick="convert('BRL','EUR')">EUR</button>
+ 
+     <button onclick="convert('BRL','JPY')">JPY</button>
+   </div>
 
     <p id = "convertMessage"></p>
 
