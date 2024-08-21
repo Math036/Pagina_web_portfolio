@@ -30,6 +30,32 @@ p{
     margin: 10px;
   }
 
+.notify{
+  border-color: #8575b8;
+}
+
+button{
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #b7addb;
+}
+
+#comission_btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conversion{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-gap: 10px;
+}
+
+.conversion button{
+  padding: 20px;
+}
+
 /* Customize the label (the container) */
 .container {
     display: block;
